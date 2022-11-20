@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/gray"
+    >
+
+    <!--suppress AndroidUnknownAttribute -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nanny_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="58dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nanny_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nanny_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="اسم المربية"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+<!--
+    <RatingBar
+        android:id="@+id/nanny_rate"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/nanny_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="17dp"
+        android:numStars="5"
+        android:progressTint="@color/rate_color"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        />
+-->
+
+    <RatingBar
+        android:id="@+id/nanny_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@+id/nanny_name"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:padding="0dp"
+        android:progressTint="@color/rate_color"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contact_message_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nanny_rate"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:text="أضاف تعليق"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/comment_data"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@id/contact_message_txt"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/light_gray_border"
+        android:gravity="top"
+        android:hint="تعليقك"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/send_comment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_data"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/buttonbg"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="إضافة"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_nanny_profile">
+
+    <fragment
+        android:id="@+id/nav_nanny_profile"
+        android:name="com.example.nannyap.nanny.NannyProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_nanny_profile" />
+
+    <fragment
+        android:id="@+id/nav_nanny_evaluation"
+        android:name="com.example.nannyap.nanny.evaluation.EvaluationFragment"
+        android:label="@string/menu_evaluation"
+        tools:layout="@layout/fragment_evaluation" />
+
+    <fragment
+        android:id="@+id/nav_nanny_booking_requests"
+        android:name="com.example.nannyap.nanny.bookingRequest.BookingRequestsFragment"
+        android:label="@string/menu_bookings"
+        tools:layout="@layout/fragment_booking_requests" />
+
+    <fragment
+        android:id="@+id/nav_nanny_booking_accepted"
+        android:name="com.example.nannyap.nanny.acceptedBookings.BookingAcceptedFragment"
+        android:label="@string/menu_accepted_booking"
+        tools:layout="@layout/fragment_booking_accepted" />
+
+    <fragment
+        android:id="@+id/nav_nanny_chat"
+        android:name="com.example.nannyap.nanny.chat.NannyChatHomeFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_nanny_chat_home" />
+
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.example.nannyap.outerPages.LoginActivity"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/activity_login" />
+
+</navigation>

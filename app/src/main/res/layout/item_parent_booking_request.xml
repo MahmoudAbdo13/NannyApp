@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/card_border"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/item_parent_request_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="26dp"
+            android:layout_marginVertical="8dp"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="الحالة: قيد المعالجة"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_parent_request_image"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_request_status" />
+
+        <TextView
+            android:id="@+id/item_parent_request_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="اسم المربية"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/item_parent_request_booking_type"
+            app:layout_constraintStart_toEndOf="@id/item_parent_request_image"
+            app:layout_constraintTop_toTopOf="@id/item_parent_request_image" />
+
+        <TextView
+            android:id="@+id/item_parent_request_booking_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="يومي"
+            android:textColor="@color/dbink"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_parent_request_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/item_parent_request_name" />
+
+        <TextView
+            android:id="@+id/item_parent_request_start_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="20-10-2022"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/item_parent_request_image"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_request_name" />
+
+        <TextView
+            android:id="@+id/item_parent_request_end_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="17-10-2022"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/item_parent_request_image"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_request_start_date" />
+
+        <Button
+            android:id="@+id/delete_request_btn"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:background="@drawable/delete_btn"
+            android:layout_marginEnd="8dp"
+            android:padding="0dp"
+            android:text="حذف"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_parent_request_booking_type" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_parent_nanny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="12dp"
+        android:background="@drawable/card_border"
+        android:elevation="6dp"
+        android:paddingBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_parent_nanny_image"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundedImage" />
+
+        <TextView
+            android:id="@+id/item_parent_nanny_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="اسم المربية"
+            android:textSize="20sp"
+            android:textColor="@color/dbink"
+            app:layout_constraintEnd_toStartOf="@id/item_parent_nanny_status"
+            app:layout_constraintStart_toStartOf="@id/item_parent_nanny_image"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_nanny_image" />
+
+        <TextView
+            android:id="@+id/item_parent_nanny_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="متاحة"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@id/item_parent_nanny_image"
+            app:layout_constraintStart_toEndOf="@id/item_parent_nanny_name"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_nanny_image" />
+        <TextView
+            android:id="@+id/item_parent_nanny_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="المدينة"
+            android:textColor="@color/dbink"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@id/item_parent_nanny_image"
+            app:layout_constraintStart_toEndOf="@id/item_parent_nanny_name"
+            app:layout_constraintTop_toBottomOf="@id/item_parent_nanny_status" />
+
+        <RatingBar
+            android:id="@+id/item_parent_nanny_rate"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="38dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/rate_color"
+            android:rating="2.5"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:stepSize="0.1"
+            android:transformPivotX="1dp"
+            android:transformPivotY="1dp"
+            app:guidelineUseRtl="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/item_parent_nanny_image"
+            app:layout_constraintTop_toBottomOf="@+id/item_parent_nanny_name" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/card_border"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_comment_image"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_comment_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="اسم الاب"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@id/item_comment_rate"
+            app:layout_constraintStart_toEndOf="@id/item_comment_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RatingBar
+            android:id="@+id/item_comment_rate"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="6dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/rate_color"
+            android:rating="2.5"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:stepSize="0.1"
+            android:transformPivotX="1dp"
+            android:transformPivotY="1dp"
+            app:guidelineUseRtl="true"
+            app:layout_constraintBottom_toBottomOf="@+id/item_comment_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/item_comment_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_comment_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="6dp"
+
+            android:gravity="start"
+            android:text="انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن انا مربية محترفة استطيع رعاية طفلك بافضل شكل ممكن "
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/item_comment_image"
+            app:layout_constraintTop_toBottomOf="@id/item_comment_name" />
+
+        <TextView
+            android:id="@+id/item_comment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="6dp"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="22-10-2022"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="@id/item_comment_comment"
+            app:layout_constraintTop_toBottomOf="@id/item_comment_comment" />
+
+        <Button
+            android:id="@+id/delete_comment_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="74dp"
+            android:layout_marginVertical="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/delete_btn"
+            android:text="حذف التعليق"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_comment_date" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

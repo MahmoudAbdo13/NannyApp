@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/drawable-v24/message_bg.xml" value="0.141" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/drawable-v24/message_receiver_bg.xml" value="0.1" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/drawable-v24/message_sender_bg.xml" value="0.12" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/drawable/message_answer_outline.xml" value="0.1" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/drawable/message_outline.xml" value="0.1" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/activity_nanny.xml" value="0.22" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/activity_parent.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/activity_registeration.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/admin_nanny.xml" value="0.16203703703703703" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/app_bar_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/app_bar_nanny.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/content_nanny.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_accepted_nanny.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_accepted_nanny_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_booking.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_booking_accepted.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_booking_accepted_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_booking_request_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_booking_requests.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_chat_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_comment.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_evaluation.xml" value="0.33" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_chat.xml" value="0.33" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_chat_home.xml" value="0.33" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_comment.xml" value="0.16203703703703703" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_profile.xml" value="0.25" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_nanny_register.xml" value="0.16203703703703703" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_accepted_requests.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_add_comment.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_nannies.xml" value="0.33" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_nanny_comments.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_nanny_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_register.xml" value="0.22" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_request_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_parent_requests.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/fragment_requests_nanny.xml" value="0.25" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_accepted_booking.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_accepted_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_booking_request.xml" value="0.22" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_chat_home.xml" value="0.67" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_chat_message.xml" value="0.33" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_comment.xml" value="0.16203703703703703" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_evaluation.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_nanny_accepted.xml" value="0.16203703703703703" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_nanny_comment.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_nanny_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_parent_booking_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/item_parent_nanny.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/nav_header_nanny.xml" value="0.5" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/layout/nav_header_parent.xml" value="0.22" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/menu/admin_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/menu/nanny_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/NannyDelivered/Task 2/NannyApp/app/src/main/res/menu/parent_main_drawer.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
